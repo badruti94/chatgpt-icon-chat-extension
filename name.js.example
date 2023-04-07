@@ -1,0 +1,20 @@
+const images = [
+    {
+        name: 'Pacar',
+        url: 'https://.jpg'
+    },
+    {
+        name: 'Keqing',
+        url: 'https://.jpg'
+    },
+    {
+        name: 'Nijika',
+        url: 'https://.jpg'
+    },
+    {
+        name: 'Barbara',
+        url: 'https://.jpg'
+    },
+]
+
+localStorage.setItem('images',JSON.stringify(images))
